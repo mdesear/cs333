@@ -1,0 +1,8 @@
+Misha Desear
+CS 333
+
+The approach I will be taking towards integration testing is the Big Bang strategy, 
+as there is a small amount of modules and thus combining them all at once will not 
+be difficult nor expensive. The relationships that will be tested are the book class 
+and the wishlist class, the book class and the database class, and the wishlist class 
+and the database class.

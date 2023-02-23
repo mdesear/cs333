@@ -1,0 +1,39 @@
+=== CHANGES MADE ===
+Aside from the separation of classes into separate files, only one change 
+was made to the game code in order to improve testing, namely an exception
+for entering a board position that didn't correspond to any of the dict keys 
+(ex. letters like "Q", which was used in testing). This was included as a
+potential edge case that needed addressing, both in execution and in testing.
+
+== TESTS AND COVERAGE TYPES ==
+test_valid_move / test_invalid_move:
+- function coverage
+- statement coverage
+- branch coverage
+- condition coverage
+
+test_invalid_position:
+- branch coverage
+- edge coverage
+
+all test win checks (horizontal, vertical, diagonal, no win):
+- function coverage
+- statement coverage
+- branch coverage 
+- condition coverage
+
+test_change_board_valid / test_change_board_invalid:
+- function coverage
+- statement coverage
+- branch coverage
+- condition coverage
+
+test_switch_x_to_o / test_switch_o_to_x:
+- function coverage
+- statement coverage
+- branch coverage
+
+test_modify_board_success / test_modify_board_failure:
+- function coverage
+- statement coverage
+- branch coverage
